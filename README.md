@@ -3,7 +3,7 @@ Gambas Device Components Library using GPIO, i2c, etc.
 
 #gb.device.gpio
 Open, Read, Write and Close GPIO pins via Sysfs.
-![Photo](../device.gpio/Raspberry Pi - GPIO Pin Layout Diagram.jpg?raw=true "gb.device.gpio")
+![Photo](device.gpio/Raspberry Pi - GPIO Pin Layout Diagram.jpg?raw=true "gb.device.gpio")
 
 
 
