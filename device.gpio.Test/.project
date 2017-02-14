@@ -1,0 +1,11 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.9.2
+Title=device.gpio.Test
+Startup=FMain
+Version=0.0.1
+Component=gb.image
+Component=gb.gtk
+Component=gb.device.gpio
+TabSize=2
+Language=en_US
+Packager=1

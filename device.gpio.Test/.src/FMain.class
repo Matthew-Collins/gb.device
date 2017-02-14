@@ -1,0 +1,18 @@
+' Gambas class file
+
+Public Pin As GPIO_Pin
+
+Public Sub Form_Open()
+  Me.Pin = New GPIO_Pin(17)
+  Me.Pin.SetDirection(True)
+  CheckBox1.Value = Pin.GetValue()
+End
+
+Public Sub Form_Close()
+  Me.Pin.Close
+End
+
+Public Sub Button1_Click()
+  Me.Pin.SetValue(Not Me.Pin.GetValue())
+  CheckBox1.Value = Pin.GetValue()
+End

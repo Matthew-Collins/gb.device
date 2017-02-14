@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 14 Feb 2017 12:00:00 +0000
+Source: gambas3-gb-device-gpio
+Binary: gambas3-gb-device-gpio
+Architecture: source all
+Version: 0.0.3-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Matthew Collins <mcollins@cwgsy.net>
+Changed-By: Matthew Collins <mcollins@cwgsy.net>
+Description:
+ gambas3-gb-device-gpio - Open, Read, Write and Close GPIO pins via Sysfs.
+Changes:
+ gambas3-gb-device-gpio (0.0.3-0ubuntu1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1:
+ c16412b6e97f6b27690d89a7164a2653df73cca8 965 gambas3-gb-device-gpio_0.0.3-0ubuntu1.dsc
+ 94f8076b6b05f6da53c502a9ab6717896f454ae9 964 gambas3-gb-device-gpio_0.0.3-0ubuntu1.diff.gz
+ 4f748a695aff13a81e835b67265a53ff115bbbb4 2876 gambas3-gb-device-gpio_0.0.3-0ubuntu1_all.deb
+Checksums-Sha256:
+ 9000e676fff03dac831e146c2bcf01c5ccea0927bc0eb5497587ed3bbe9946a9 965 gambas3-gb-device-gpio_0.0.3-0ubuntu1.dsc
+ 3ecdff3b816f3d7ceb5ac89e8e32afe0d50533a64f4f975c408075fd72dcd6f7 964 gambas3-gb-device-gpio_0.0.3-0ubuntu1.diff.gz
+ 0d056e666bb023bd013e311022b51a72e600b55c8dff894854422dabe59d5f29 2876 gambas3-gb-device-gpio_0.0.3-0ubuntu1_all.deb
+Files:
+ 3a73393bd89c48d7b4b07e8b50b6c4d4 965 contrib/electronics optional gambas3-gb-device-gpio_0.0.3-0ubuntu1.dsc
+ 3e9150e8246577a0c630c29d28868896 964 contrib/electronics optional gambas3-gb-device-gpio_0.0.3-0ubuntu1.diff.gz
+ 11d06357948cd3f2a28db291676f694e 2876 contrib/electronics optional gambas3-gb-device-gpio_0.0.3-0ubuntu1_all.deb

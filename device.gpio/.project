@@ -1,0 +1,26 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.9.2
+Title=device.gpio
+Startup=Main
+Version=0.0.3
+Description="Open, Read, Write and Close GPIO pins via Sysfs."
+TabSize=2
+Language=en_US
+Type=Component
+Maintainer=Matthew Collins
+Vendor=MatthewCollins
+VendorPrefix=gb
+Address=mcollins@cwgsy.net
+Url=https://github.com/matthew-collins/gb.device
+License=Other License(s)
+Prefix=1
+PackageName=gambas3-gb-device-gpio-0.0.3
+CreateEachDirectory=1
+Packager=1
+Systems=debian,fedora,mageia,suse,slackware,ubuntu
+Groups=debian:"electronics"
+Groups=fedora:"Applications/Engineering"
+Groups=mageia:"System/Configuration/Hardware"
+Groups=slackware:"Applications/Engineering"
+Groups=suse:"Hardware/Other"
+Groups=ubuntu:"electronics"
