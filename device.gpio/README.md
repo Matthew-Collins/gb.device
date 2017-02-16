@@ -18,8 +18,12 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 7. Print Pin.GetValue
 
 ###More Code Examples see:
-https://github.com/Matthew-Collins/gb.device/tree/master/device.gpio.Test
+https://github.com/Matthew-Collins/gb.device/tree/master/device.gpio.Test  
 https://github.com/Matthew-Collins/gb.device/blob/master/device.gpio.Test/.src/FMain.class
+
+
+###Also download and try out this live and colourful Pin monitor by Charlie Ogier:  
+https://github.com/charlie-ogier/gpio
 
 Thanks  
 Matt
