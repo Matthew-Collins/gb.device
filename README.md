@@ -3,12 +3,14 @@ Gambas Device Components Library using GPIO, i2c, etc.
 
 ##gb.device.gpio
 Open, Read, Write and Close GPIO pins via Sysfs.
-![Photo](device.gpio/Raspberry Pi - GPIO Pin Layout Diagram.jpg?raw=true "gb.device.gpio")
 
-More info on how to get started:
+More info on how to get started:  
 https://github.com/Matthew-Collins/gb.device/blob/master/device.gpio/README.md
 
+![Photo](device.gpio/Raspberry Pi - GPIO Pin Layout Diagram.jpg?raw=true "gb.device.gpio")
 
+  
+  
 #The road map of devices to be added shortly....
 
 ##gb.device.i2c
