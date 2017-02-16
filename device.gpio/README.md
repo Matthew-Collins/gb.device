@@ -17,7 +17,8 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 6. Dim Pin as New GPIO_Pin(Any Pin BCM Number i.e 17 which is physical pin 11)
 7. Print Pin.GetValue
 
-###More Code Examples see:  
+###More Code Examples see:
+https://github.com/Matthew-Collins/gb.device/tree/master/device.gpio.Test
 https://github.com/Matthew-Collins/gb.device/blob/master/device.gpio.Test/.src/FMain.class
 
 Thanks  
