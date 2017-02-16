@@ -1,28 +1,33 @@
 # gb.device
 Gambas Device Components Library using GPIO, i2c, etc.
 
-#gb.device.gpio
+##gb.device.gpio
 Open, Read, Write and Close GPIO pins via Sysfs.
 ![Photo](device.gpio/Raspberry Pi - GPIO Pin Layout Diagram.jpg?raw=true "gb.device.gpio")
 
+More info on how to get started:
+https://github.com/Matthew-Collins/gb.device/blob/master/device.gpio/README.md
 
 
-The road map of devices to be added shortly....
+#The road map of devices to be added shortly....
 
-#gb.device.i2c
+##gb.device.i2c
 Open, Read, Write to i2c / SMBus Devices via i2c-tools.
 
-#gb.device.obstaclesensor
+##gb.device.obstaclesensor
 Short range infra-red obstacle sensor device.
 
-#gb.device.ultrasonic
+##gb.device.ultrasonic
 Measure distance to obstacles using HC-SRO4.
 
-#gb.device.piconzero
+##gb.device.piconzero
 Control Servos, Motors, etc using 4tronix Picon Zero.
 
-#gb.device.berryimu
+##gb.device.berryimu
 Read Gyro, Accelerometer, Compass and Altitude using ozzmaker BerryIMU.
 
-Thanks
+
+##More to follow...
+
+Thanks  
 Matt
