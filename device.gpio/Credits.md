@@ -1,10 +1,10 @@
 #Credits:
 
-#GPIO Sysfs Interface for Userspace
+##GPIO Sysfs Interface for Userspace
 https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
 
-#Raspberry Pi - GPIO Pin Layout Diagram.jpg
+##Raspberry Pi - GPIO Pin Layout Diagram.jpg
 https://diyhacking.com/raspberry-pi-gpio-control/
 
-Thanks
+Thanks  
 Matt
