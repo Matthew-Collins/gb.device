@@ -1,12 +1,17 @@
 # Gambas Form File 3.0
 
 { Form Form
-  MoveScaled(0,0,64,64)
+  MoveScaled(0,0,39,28)
   { CheckBox1 CheckBox
-    MoveScaled(8,7,29,1)
+    MoveScaled(21,7,29,1)
     Enabled = False
   }
   { Button1 Button
     MoveScaled(8,13,18,8)
+    Text = ("Toggle Pin 17")
+  }
+  { Label1 Label
+    MoveScaled(8,6,24,4)
+    Text = ("Pin 17 Value:")
   }
 }

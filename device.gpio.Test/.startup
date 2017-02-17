@@ -5,6 +5,8 @@ device.gpio.Test
 0.0.1
 
 gb.image
-gb.gtk
+gb.qt4
+gb.form
 gb.device.gpio
+gb.qt4.ext
 
