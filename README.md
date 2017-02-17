@@ -13,7 +13,7 @@ https://github.com/Matthew-Collins/gb.device/blob/master/device.gpio/README.md
 Short range infra-red obstacle sensor device.
 
 More info on how to get started:  
-https://github.com/Matthew-Collins/device.obstaclesensor/blob/master/device.gpio/README.md  
+https://github.com/Matthew-Collins/device.obstaclesensor/blob/master/device.obstaclesensor/README.md  
 
 ![Photo](device.obstaclesensor/IR Obstacle Sensor - Wiring 1.jpg?raw=true "device.obstaclesensor")
   
