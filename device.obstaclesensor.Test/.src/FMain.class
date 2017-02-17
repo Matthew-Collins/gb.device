@@ -11,3 +11,8 @@ End
 Public Sub Timer1_Timer()
   CheckBox1.value = Me.IRSensor.IsOn()
 End
+
+Public Sub Form_Close()
+  Me.IRSensor.Close
+End
+
