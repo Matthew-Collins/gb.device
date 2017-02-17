@@ -22,8 +22,8 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 ![Photo](IR Obstacle Sensor - Wiring 2.jpg?raw=true "gb.device.obstaclesensor")
 
 ###More Code Examples see:
-https://github.com/Matthew-Collins/gb.device/tree/master/device.obstaclesensor.Test
-https://github.com/Matthew-Collins/gb.device/blob/master/device.obstaclesensor.Test/.src/FMain.class
+https://github.com/Matthew-Collins/gb.device/tree/master/device.obstaclesensor.Test  
+https://github.com/Matthew-Collins/gb.device/blob/master/device.obstaclesensor.Test/.src/FMain.class  
 
 ![Photo](Test Code Demo with GPIO Monitor.png?raw=true "gb.device.obstaclesensor")
 (The obstacle sensor logic in the GPIO Live Monitor is reversed Off is On and vice versa)
