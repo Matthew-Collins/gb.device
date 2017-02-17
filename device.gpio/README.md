@@ -15,7 +15,7 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 4. Goto Menu: Project > Properties > Components > Check/Tick: gb.device.gpio
 5. Write some code...
 6. Dim Pin as New GPIO_Pin(Any Pin BCM Number i.e 17 which is physical pin 11)
-7. Print Pin.GetValue
+7. Print Pin.GetValue()
 ![Photo](Test Code Select Component.png?raw=true "gb.device.gpio")
 
 ###More Code Examples see:
