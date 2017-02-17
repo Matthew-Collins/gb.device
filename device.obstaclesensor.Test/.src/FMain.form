@@ -1,0 +1,12 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,39,11)
+  { CheckBox1 CheckBox
+    MoveScaled(10,1,32,9)
+    Text = ("IR Sensor on Pin 17")
+  }
+  { Timer1 #Timer
+    #MoveScaled(2,2)
+  }
+}

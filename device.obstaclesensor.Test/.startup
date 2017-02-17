@@ -1,0 +1,13 @@
+FMain
+device.obstaclesensor.Test
+0
+0
+0.0.1
+
+gb.image
+gb.qt4
+gb.form
+gb.device.gpio
+gb.device.obstaclesensor
+gb.qt4.ext
+

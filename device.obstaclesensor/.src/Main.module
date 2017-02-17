@@ -1,0 +1,8 @@
+' Gambas module file
+
+Public Sub Main()
+
+  Print "Gambas Component"
+  Print "Short range infra-red obstacle sensor device"
+
+End

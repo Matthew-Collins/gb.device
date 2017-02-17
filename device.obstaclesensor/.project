@@ -1,0 +1,28 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.9.2
+Title=device.obstaclesensor
+Startup=Main
+Version=0.0.3
+Component=gb.device.gpio
+Description="Short range infra-red obstacle sensor device"
+Authors="Matthew Collins"
+TabSize=2
+Language=en_GB
+Type=Component
+Maintainer=Matthew Collins
+Vendor=MatthewCollins
+VendorPrefix=gb
+Address=mcollins@cwgsy.net
+Url=https://github.com/Matthew-Collins/gb.device
+License=Other License(s)
+Prefix=1
+PackageName=gambas3-gb-device-obstaclesensor-0.0.3
+CreateEachDirectory=1
+Packager=1
+Systems=debian,fedora,mageia,suse,slackware,ubuntu
+Groups=debian:"electronics"
+Groups=fedora:"Applications/Engineering"
+Groups=mageia:"System/Configuration/Hardware"
+Groups=slackware:"Applications/Engineering"
+Groups=suse:"Productivity/Scientific/Electronics"
+Groups=ubuntu:"electronics"

@@ -1,0 +1,13 @@
+' Gambas class file
+
+Public IRSensor As ObstacleSensor
+
+Public Sub Form_Open()
+  Me.IRSensor = New ObstacleSensor(17)
+  Timer1.Delay = 250
+  Timer1.Start
+End
+
+Public Sub Timer1_Timer()
+  CheckBox1.value = Me.IRSensor.IsOn()
+End

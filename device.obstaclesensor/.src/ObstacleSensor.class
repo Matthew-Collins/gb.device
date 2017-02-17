@@ -1,0 +1,20 @@
+' Gambas class file
+
+Export
+
+'Dependancy: Must have Infrared Obstacle Sensors
+
+Public Pin As GPIO_Pin
+
+Public Sub _new(BCM_Pin_To_Export As Integer)
+  Me.Pin = New GPIO_Pin(BCM_Pin_To_Export)
+  Me.Pin.SetDirection(False)
+End
+
+Public Function IsOn() As Boolean
+  Return Not Me.Pin.GetValue()
+End
+
+Public Sub Close()
+  Me.Pin.Close
+End

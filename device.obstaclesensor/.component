@@ -1,0 +1,6 @@
+[Component]
+Key=device.obstaclesensor
+Version=0.0.3
+State=1
+Authors=Matthew Collins
+Requires=gb.device.gpio

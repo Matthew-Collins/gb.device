@@ -1,0 +1,11 @@
+[Breakpoints]
+Count=0
+
+[Executable]
+Path="device.obstaclesensor.gambas"
+
+[OpenFile]
+Count=1
+Active=1
+File[1]=".src/ObstacleSensor.class:0.5"
+

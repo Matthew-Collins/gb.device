@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 17 Feb 2017 12:00:00 +0000
+Source: gambas3-gb-device-obstaclesensor
+Binary: gambas3-gb-device-obstaclesensor
+Architecture: source all
+Version: 0.0.3-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Matthew Collins <mcollins@cwgsy.net>
+Changed-By: Matthew Collins <mcollins@cwgsy.net>
+Description:
+ gambas3-gb-device-obstaclesensor - Short range infra-red obstacle sensor device
+Changes:
+ gambas3-gb-device-obstaclesensor (0.0.3-0ubuntu1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1:
+ 3af72f7c48521c8aa8ef4fdaa2be886a416c90e5 1127 gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1.dsc
+ 4758d525f0b4ff616c93374a61862283226b8e18 1128 gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1.diff.gz
+ 4decd658765db2b8e55726963a37ddb0c9440851 2726 gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1_all.deb
+Checksums-Sha256:
+ 294931aa35f532d301bb3fccaa55d9d98aeca79cb632ba354ca98941f4658a9d 1127 gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1.dsc
+ 52ee9004d0e51dfcffe74709475347222c2e704c096fca7e579ff81442bfb535 1128 gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1.diff.gz
+ 65ffe6546024e63983d75a5446cd9f17b3e8011296682f0c9a86455e37354344 2726 gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1_all.deb
+Files:
+ e68ace1f9e3b2e27ae2a8d62034a5c67 1127 contrib/electronics optional gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1.dsc
+ e18c4afa9d22ab46b0e8de7c7c5d51a6 1128 contrib/electronics optional gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1.diff.gz
+ be655507064aea0dd0ae601b4d4f7bc0 2726 contrib/electronics optional gambas3-gb-device-obstaclesensor_0.0.3-0ubuntu1_all.deb
