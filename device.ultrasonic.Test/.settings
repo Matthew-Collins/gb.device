@@ -5,7 +5,9 @@ Count=0
 Count=0
 
 [OpenFile]
-Count=0
+Count=1
+Active=1
+File[1]=".src/FMain.class:23.23"
 
 [Watches]
 Count=0

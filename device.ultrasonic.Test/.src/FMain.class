@@ -20,3 +20,7 @@ Public Sub Timer1_Timer()
   Endif
 
 End
+
+Public Sub Form_Close()
+ Me.Sensor.Close
+End
