@@ -3,11 +3,9 @@
 Public Sensor As Ultrasonic
 
 Public Sub Form_Open()
-
   Me.Sensor = New Ultrasonic(17, 18)
   Timer1.Delay = 1000
   Timer1.Start
-
 End
 
 Public Sub Timer1_Timer()
