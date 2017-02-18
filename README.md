@@ -16,15 +16,20 @@ More info on how to get started:
 https://github.com/Matthew-Collins/gb.device/blob/master/device.obstaclesensor/README.md
 
 ![Photo](device.obstaclesensor/IR Obstacle Sensor - Wiring 1.jpg?raw=true "device.obstaclesensor")
+
+##gb.device.ultrasonic
+Measure distance to obstacles using HC-SRO4.
+
+More info on how to get started:  
+https://github.com/Matthew-Collins/gb.device/blob/master/device.ultrasonic/README.md
+
+![Photo](device.ultrasonic/Ultrasonic Wiring 1.jpg?raw=true "device.ultrasonic") 
   
   
 #The road map of devices to be added shortly....
 
 ##gb.device.i2c
 Open, Read, Write to i2c / SMBus Devices via i2c-tools.
-
-##gb.device.ultrasonic
-Measure distance to obstacles using HC-SRO4.
 
 ##gb.device.piconzero
 Control Servos, Motors, etc using 4tronix Picon Zero.
