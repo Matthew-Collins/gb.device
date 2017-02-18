@@ -1,0 +1,100 @@
+' Gambas class file
+
+Export
+
+'Dependancy: Must have HC-SR04 Ultrasonic Senor
+
+Public TriggerPin As GPIO_Pin
+Public EchoPin As GPIO_Pin
+
+Const State_Before_Triggered As Integer = 0
+Const State_After_Triggered As Integer = 1
+Const State_Signal_Back As Integer = 2
+Const State_Signal_Back_And_Stopped As Integer = 3
+Const State_TimeOut_Starting As Integer = 10
+Const State_TimeOut_Stopping As Integer = 20
+Const Max_Attempts As Integer = 1000
+
+Public Sub _new(TriggerPinNumber As Short, Optional EchoPinNumber As Short = 0)
+
+  Me.TriggerPin = New GPIO_Pin(TriggerPinNumber)
+  
+  If EchoPinNumber = 0 Then
+    Me.EchoPin = Me.TriggerPin  
+  Else
+     Me.EchoPin = New GPIO_Pin(EchoPinNumber)
+  Endif
+
+End
+
+Public Function GetDistance() As Integer
+  Dim Distance As Integer = -1
+  Dim State As Integer
+  Dim Started, Stopped As Float
+  Dim Attempts As Integer
+
+  State = State_Before_Triggered
+  
+  'Fire Trigger
+  Me.TriggerPin.SetDirection(True)
+  Me.TriggerPin.SetValue(True)
+  Sleep 0.00001
+  Me.TriggerPin.SetValue(False)
+  
+  'Listen for Response
+  Me.EchoPin.SetDirection(False)
+  State = State_After_Triggered
+
+  'Get Response Time (very faster)
+  Do
+    Select State
+
+      Case State_After_Triggered
+        If Me.EchoPin.GetValue()
+          State = State_Signal_Back
+          Started = Timer()
+          Attempts = 0
+        Else
+          Attempts += 1
+          If Attempts > Max_Attempts Then
+            State = State_TimeOut_Starting
+            Break
+          Endif
+        End If
+
+      Case State_Signal_Back
+        If Me.EchoPin.GetValue() = False Then
+          State = State_Signal_Back_And_Stopped
+          Stopped = Timer()
+          Break
+        Else
+          Attempts += 1
+          If Attempts > Max_Attempts Then
+            State = State_TimeOut_Stopping
+            Break
+          Endif
+        Endif
+
+    End Select
+  Loop
+
+  'Get Results
+  Select State
+    Case State_Signal_Back_And_Stopped
+     'Calculate Distance using Speed of Sound, Dividend in 2 for there and back
+      Distance = CInt((Stopped - Started) * 34000 / 2)
+    Case State_TimeOut_Starting
+      Distance = -10
+    Case State_TimeOut_Stopping
+      Distance = -20
+    Case Else
+      Distance = -1
+  End Select
+
+  Return Distance
+End
+
+Public Sub Close()
+  Me.TriggerPin.Close
+  Me.EchoPin.Close
+End

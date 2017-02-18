@@ -1,0 +1,8 @@
+' Gambas module file
+
+Public Sub Main()
+
+  Print "Gambas Component"
+  Print "Measure distance to obstacles using HC-SRO4."
+  
+End

@@ -1,0 +1,6 @@
+[Component]
+Key=device.ultrasonic
+Version=0.0.1
+State=1
+Authors=Matthew Collins
+Requires=gb.device.gpio

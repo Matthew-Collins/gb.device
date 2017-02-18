@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 18 Feb 2017 12:00:00 +0000
+Source: gambas3-gb-device-ultrasonic
+Binary: gambas3-gb-device-ultrasonic
+Architecture: source all
+Version: 0.0.1-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Matthew Collins <mcollins@cwgsy.net>
+Changed-By: Matthew Collins <mcollins@cwgsy.net>
+Description:
+ gambas3-gb-device-ultrasonic - Measure distance to obstacles using HC-SRO4.
+Changes:
+ gambas3-gb-device-ultrasonic (0.0.1-0ubuntu1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1:
+ 1561ba31e19ccaaba2f37ff5a36c2421771fb9c9 1091 gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1.dsc
+ 7f4615d1280810deff22e294eeef6342af9e8de7 1227 gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1.diff.gz
+ 6882c8e69b9d3cfc1c963b991e94c56267842414 3162 gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1_all.deb
+Checksums-Sha256:
+ 80034ef51b5a27892f3e6a8a9ee78a37c427a34d21c822ea5695d2d49669aeee 1091 gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1.dsc
+ fa14531b0998981efc31cddd845bf6480afead3acf6a544a908f23bb053a52c5 1227 gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1.diff.gz
+ 2af80442dc086e7cbd83068bb1d006020c2a42c9b6eeef756c4450f43f222d09 3162 gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1_all.deb
+Files:
+ 93944811296d64656088eb80501add80 1091 contrib/electronics optional gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1.dsc
+ ebd94f72eb57e70daaaec0864c834545 1227 contrib/electronics optional gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1.diff.gz
+ a8a0199fd662dd6cfb084776c88f5dca 3162 contrib/electronics optional gambas3-gb-device-ultrasonic_0.0.1-0ubuntu1_all.deb

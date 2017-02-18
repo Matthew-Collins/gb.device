@@ -1,0 +1,24 @@
+' Gambas class file
+
+Public Sensor As Ultrasonic
+
+Public Sub Form_Open()
+
+  Me.Sensor = New Ultrasonic(17, 18)
+  Timer1.Delay = 1000
+  Timer1.Start
+
+End
+
+Public Sub Timer1_Timer()
+
+  Dim DistanceInCM As Integer = Me.Sensor.GetDistance()
+  Label2.text = CStr(DistanceInCM) & "CM"
+  
+  If DistanceInCM > 10 Then
+    Me.Background = Color.Green
+  Else
+    Me.Background = Color.Red
+  Endif
+
+End

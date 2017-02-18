@@ -1,0 +1,15 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,46,18)
+  { Label1 Label
+    MoveScaled(10,3,24,4)
+    Text = ("Distance:")
+  }
+  { Label2 Label
+    MoveScaled(10,7,24,4)
+  }
+  { Timer1 #Timer
+    #MoveScaled(1,9)
+  }
+}
