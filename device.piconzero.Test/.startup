@@ -1,0 +1,14 @@
+FMain
+device.piconzero.Test
+0
+0
+0.0.1
+
+gb.image
+gb.qt4
+gb.form
+gb.device.gpio
+gb.device.i2c
+gb.device.ultrasonic
+gb.qt4.ext
+

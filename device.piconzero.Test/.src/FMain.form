@@ -1,0 +1,116 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { TabStrip1 TabStrip
+    MoveScaled(1,1,62,62)
+    Count = 3
+    Index = 0
+    Text = ("Servos")
+    { SliderServo0 Slider ServoSliders
+      Name = "SliderServo0"
+      MoveScaled(2,4,57,4)
+      Tag = "0"
+      MinValue = -90
+      MaxValue = 90
+    }
+    { SliderServo1 Slider ServoSliders
+      Name = "SliderServo1"
+      MoveScaled(2,11,57,4)
+      Tag = "1"
+      MinValue = -90
+      MaxValue = 90
+    }
+    { SliderServo2 Slider ServoSliders
+      Name = "SliderServo2"
+      MoveScaled(2,18,57,4)
+      Tag = "2"
+      MinValue = -90
+      MaxValue = 90
+    }
+    { SliderServo3 Slider ServoSliders
+      Name = "SliderServo3"
+      MoveScaled(2,25,57,4)
+      Tag = "3"
+      MinValue = -90
+      MaxValue = 90
+    }
+    { SliderServo4 Slider ServoSliders
+      Name = "SliderServo4"
+      MoveScaled(2,32,57,4)
+      Tag = "4"
+      MinValue = -90
+      MaxValue = 90
+    }
+    { SliderServo5 Slider ServoSliders
+      Name = "SliderServo5"
+      MoveScaled(2,39,57,4)
+      Tag = "5"
+      MinValue = -90
+      MaxValue = 90
+    }
+    { Label1 Label
+      MoveScaled(2,2,24,2)
+      Text = ("Servo Channel #0")
+    }
+    { Label2 Label
+      MoveScaled(2,9,24,2)
+      Text = ("Servo Channel #1")
+    }
+    { Label3 Label
+      MoveScaled(2,16,24,2)
+      Text = ("Servo Channel #2")
+    }
+    { Label4 Label
+      MoveScaled(2,23,24,2)
+      Text = ("Servo Channel #3")
+    }
+    { Label5 Label
+      MoveScaled(2,30,24,2)
+      Text = ("Servo Channel #4")
+    }
+    { Label6 Label
+      MoveScaled(2,37,24,2)
+      Text = ("Servo Channel #5")
+    }
+    Index = 1
+    Text = ("Ultrasonic")
+    { Label7 Label
+      MoveScaled(12,5,36,4)
+      Text = ("Distance:")
+    }
+    { LabelDistance Label
+      MoveScaled(12,9,36,36)
+      Alignment = Align.Center
+    }
+    { DistanceTimer #Timer
+      #MoveScaled(4,47)
+    }
+    Index = 2
+    Text = ("Obstacle Sensors")
+    { ObstacleTimer #Timer
+      #MoveScaled(2,48)
+    }
+    { ObstacleSensor0 CheckBox ObstacleSensors
+      Name = "ObstacleSensor0"
+      MoveScaled(2,2,57,4)
+      Text = ("Obstacle Sensor #0")
+    }
+    { ObstacleSensor1 CheckBox ObstacleSensors
+      Name = "ObstacleSensor1"
+      MoveScaled(2,7,57,4)
+      Text = ("Obstacle Sensor #1")
+    }
+    { ObstacleSensor2 CheckBox ObstacleSensors
+      Name = "ObstacleSensor2"
+      MoveScaled(2,12,57,4)
+      Text = ("Obstacle Sensor #2")
+    }
+    { ObstacleSensor3 CheckBox ObstacleSensors
+      Name = "ObstacleSensor3"
+      MoveScaled(2,17,57,4)
+      Text = ("Obstacle Sensor #3")
+    }
+    Index = 0
+  }
+}

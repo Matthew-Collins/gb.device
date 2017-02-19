@@ -1,0 +1,39 @@
+' Gambas class file
+
+Public Picon As PiconZero
+
+Public Sub Form_Open()
+  
+  Me.Picon = New PiconZero
+  
+  DistanceTimer.Delay = 1000
+  DistanceTimer.Start
+
+  ObstacleTimer.Delay = 1000
+  ObstacleTimer.Start
+
+End
+
+
+Public Sub ServoSliders_Change()
+  Me.Picon.SetServo(Last.Tag, Last.Value)
+End
+
+Public Sub DistanceTimer_Timer()
+  Dim Distance As Integer = Me.Picon.Ultrasonic.GetDistance()
+  LabelDistance.text = Distance & "cm"
+  If Distance <= 10 Then
+    LabelDistance.Background = Color.Red
+  Else
+    LabelDistance.Background = Color.Default
+  Endif
+End
+
+Public Sub ObstacleTimer_Timer()
+  ObstacleSensor0.Value = Me.Picon.GetObstacleSensor(0)
+  ObstacleSensor1.Value = Me.Picon.GetObstacleSensor(1)
+  ObstacleSensor2.Value = Me.Picon.GetObstacleSensor(2)
+  ObstacleSensor3.Value = Me.Picon.GetObstacleSensor(3)
+End
+
+
