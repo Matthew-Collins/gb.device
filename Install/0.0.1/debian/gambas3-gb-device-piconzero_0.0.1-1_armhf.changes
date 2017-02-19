@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 19 Feb 2017 12:00:00 +0000
+Source: gambas3-gb-device-piconzero
+Binary: gambas3-gb-device-piconzero
+Architecture: source all
+Version: 0.0.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Matthew Collins <mcollins@cwgsy.net>
+Changed-By: Matthew Collins <mcollins@cwgsy.net>
+Description:
+ gambas3-gb-device-piconzero - Control Servos, Motors, Sensors etc using 4tronix Picon Zero.
+Changes:
+ gambas3-gb-device-piconzero (0.0.1-1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1:
+ 3abf676bc678345887f7d9c8e713606be6354ea8 1052 gambas3-gb-device-piconzero_0.0.1-1.dsc
+ 25ca31901e7c694fbd4ccc519f55b4499190651e 1613 gambas3-gb-device-piconzero_0.0.1-1.diff.gz
+ e671abf579400abf70db7e9917f91be58e556b0f 3696 gambas3-gb-device-piconzero_0.0.1-1_all.deb
+Checksums-Sha256:
+ e4be894585bb13205922d4852da48e85b3d90271ad00d47aad7c8120f7642d30 1052 gambas3-gb-device-piconzero_0.0.1-1.dsc
+ 3aae9f649d2a490b975d8d64e409bbf44f37832e1316216c57e841f361c2c6a0 1613 gambas3-gb-device-piconzero_0.0.1-1.diff.gz
+ 042bb7a485de33ebf215e698be9e15a2c4ad492f4577e955dcdc35d0a61648ee 3696 gambas3-gb-device-piconzero_0.0.1-1_all.deb
+Files:
+ 67fc390eadb17168c3ebf8064732f8fc 1052 contrib/electronics optional gambas3-gb-device-piconzero_0.0.1-1.dsc
+ 48717928263650cd6cf5606250fbc72a 1613 contrib/electronics optional gambas3-gb-device-piconzero_0.0.1-1.diff.gz
+ 8df67d316903e3ccb464a45ea58a8e85 3696 contrib/electronics optional gambas3-gb-device-piconzero_0.0.1-1_all.deb

@@ -1,0 +1,8 @@
+' Gambas module file
+
+Public Sub Main()
+
+  Print "Gambas Component"
+  Print "Control Servos, Motors, Sensors using 4tronix Picon Zero."
+  
+End

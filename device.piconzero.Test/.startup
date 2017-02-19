@@ -9,6 +9,7 @@ gb.qt4
 gb.form
 gb.device.gpio
 gb.device.i2c
+gb.device.piconzero
 gb.device.ultrasonic
 gb.qt4.ext
 

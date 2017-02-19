@@ -8,6 +8,7 @@ Component=gb.qt4
 Component=gb.form
 Component=gb.device.gpio
 Component=gb.device.i2c
+Component=gb.device.piconzero
 Component=gb.device.ultrasonic
 Component=gb.qt4.ext
 TabSize=2
