@@ -25,9 +25,9 @@ Const EndPoint As Integer = 180
 Public Bus As I2c
 
 Public PlugOrder0To5 As Boolean = True
-Public Trims[16] As Integer
-Public Reversals[16] As Boolean
-Public EndPoints[16, 2] As Integer
+Public Trims[6] As Integer
+Public Reversals[6] As Boolean
+Public EndPoints[6, 2] As Integer
 
 Public Sub _new()
   Dim Channel As Integer
