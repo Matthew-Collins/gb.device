@@ -36,4 +36,6 @@ Public Sub ObstacleTimer_Timer()
   ObstacleSensor3.Value = Me.Picon.GetObstacleSensor(3)
 End
 
-
+Public Sub MotorSliders_Change()
+  Me.Picon.SetMotor(Last.tag, Last.value)
+End
