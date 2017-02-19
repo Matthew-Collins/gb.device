@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,45,33)
+  { TextBoxPiRevision TextBox
+    MoveScaled(13,1,24,4)
+    Text = ("1")
+  }
+  { TextBoxDevice TextBox
+    MoveScaled(13,5,24,4)
+    Text = ("&H22")
+  }
+  { TextBoxRegister TextBox
+    MoveScaled(13,9,24,4)
+    Text = ("&H00")
+  }
+  { ButtonGetValues Button
+    MoveScaled(14,16,16,4)
+    Text = ("Get Values")
+  }
+  { TextBoxValue8Bit TextBox
+    MoveScaled(13,22,24,4)
+    ReadOnly = True
+  }
+  { TextBoxValue16Bit TextBox
+    MoveScaled(13,26,24,4)
+    ReadOnly = True
+  }
+  { Label1 Label
+    MoveScaled(2,1,11,4)
+    Text = ("Pi Revision:")
+  }
+  { Device Label
+    MoveScaled(2,5,10,4)
+    Text = ("Device:")
+  }
+  { Label3 Label
+    MoveScaled(2,9,10,4)
+    Text = ("Register:")
+  }
+  { Label4 Label
+    MoveScaled(1,22,11,4)
+    Text = ("8 Bit Value:")
+  }
+  { Label5 Label
+    MoveScaled(1,26,10,4)
+    Text = ("16 Bit Value:")
+  }
+}

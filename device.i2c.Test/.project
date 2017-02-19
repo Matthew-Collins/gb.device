@@ -1,0 +1,13 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.9.2
+Title=device.i2c.Test
+Startup=FMain
+Version=0.0.1
+Component=gb.image
+Component=gb.qt4
+Component=gb.form
+Component=gb.device.i2c
+Component=gb.qt4.ext
+TabSize=2
+Language=en_US
+Packager=1

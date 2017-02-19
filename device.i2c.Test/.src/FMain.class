@@ -1,0 +1,18 @@
+' Gambas class file
+
+Public Sub ButtonGetValues_Click()
+
+  Dim PiRevision As Byte = CByte(TextBoxPiRevision.text)
+  Dim Device As Byte = CByte(Val(TextBoxDevice.Text))
+
+  Dim SMBus As New I2c(PiRevision, Device)
+  
+  Dim Register As Integer = CInt(Val(TextBoxRegister.Text))
+  
+  Dim Value8Bit As Integer = SMBus.Read8(Register)
+  Dim Value16Bit As Integer = SMBus.Read16(Register)
+
+  TextBoxValue8Bit.Text = "&H" & Hex$(Value8Bit, 2)
+  TextBoxValue16Bit.text = "&H" & Hex$(Value16Bit, 4)
+
+End

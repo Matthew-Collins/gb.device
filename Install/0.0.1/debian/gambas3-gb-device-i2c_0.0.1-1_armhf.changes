@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 19 Feb 2017 12:00:00 +0000
+Source: gambas3-gb-device-i2c
+Binary: gambas3-gb-device-i2c
+Architecture: source all
+Version: 0.0.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Matthew Collins <mcollins@cwgsy.net>
+Changed-By: Matthew Collins <mcollins@cwgsy.net>
+Description:
+ gambas3-gb-device-i2c - Open, Read, Write to i2c / SMBus Devices via i2c-tools.
+Changes:
+ gambas3-gb-device-i2c (0.0.1-1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ a3606ee3abeb8ebaa7a7bac6ebf56d084d2853c1 928 gambas3-gb-device-i2c_0.0.1-1.dsc
+ 48e7aadfa5032e76bb1947067bd6257ccaa5d6f7 15954 gambas3-gb-device-i2c_0.0.1.orig.tar.gz
+ baaade4d0c15db1f3329d3b12b100f9b4caf5966 942 gambas3-gb-device-i2c_0.0.1-1.diff.gz
+ 5599a194c317a91eab0b872ae5fb9d95ab812059 3016 gambas3-gb-device-i2c_0.0.1-1_all.deb
+Checksums-Sha256:
+ 1e5264cd2cbda23b3e34342b2fd7ac67f46c7fc03dc98c610d9b962dbae3de22 928 gambas3-gb-device-i2c_0.0.1-1.dsc
+ 1078f44cbd780141b1f2fc23d983af19402b0c09680d5e4a70cf634a691e3af9 15954 gambas3-gb-device-i2c_0.0.1.orig.tar.gz
+ f72773087f82e2ef3bd3516a3277c7ace12e86833037fb808a50f97aecc79099 942 gambas3-gb-device-i2c_0.0.1-1.diff.gz
+ 538c9e104fa07d4eb2e590fa603455b1e8ae9d9b626c1f10da2dda12189e3c73 3016 gambas3-gb-device-i2c_0.0.1-1_all.deb
+Files:
+ ff12ca457cd769c9cfc122d12d436279 928 contrib/electronics optional gambas3-gb-device-i2c_0.0.1-1.dsc
+ 8c29a9c035824d7ce251cbabdaaa0b68 15954 contrib/electronics optional gambas3-gb-device-i2c_0.0.1.orig.tar.gz
+ b18cce1ecb177b924c21c3b136437191 942 contrib/electronics optional gambas3-gb-device-i2c_0.0.1-1.diff.gz
+ c24b843584dbb80426b530f1b26801fd 3016 contrib/electronics optional gambas3-gb-device-i2c_0.0.1-1_all.deb
