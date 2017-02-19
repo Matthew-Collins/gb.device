@@ -35,7 +35,7 @@ Open, Read, Write to i2c / SMBus Devices via i2c-tools.
 More info on how to get started:  
 https://github.com/Matthew-Collins/gb.device/blob/master/device.i2c/README.md
 
-![Photo](device.i2c/i2cDetect and i2cDump.jpg?raw=true "device.i2c") 
+![Photo](device.i2c/i2cDetect and i2cDump.png?raw=true "device.i2c") 
 
 
   
