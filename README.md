@@ -58,7 +58,7 @@ Control 4 Motors or 2 Stepper Motors using Adafruit MotorHat.
 ##gb.device.berryimu
 Read Gyro, Accelerometer, Compass and Altitude using ozzmaker BerryIMU.
 
-##gb.device.10Dof
+##gb.device.10dof
 Read Gyro, Accelerometer, Compass and Altitude using Adafruit 10 DOF.
 
 ##More to follow...
