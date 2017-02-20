@@ -13,10 +13,10 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 2. Open Gambas
 3. Start a new project or open an existing one
 4. Goto Menu: Project > Properties > Components > Check/Tick:  
-    gb.device.piconzero  
+    gb.device.gpio  
 	gb.device.i2c  
-	gb.device.gpio  
 	gb.device.ultrasonic  
+	gb.device.piconzero  
 ![Photo](Test Code Select Component.png?raw=true "gb.device.piconzero")
 
 ##Turn Off Raspberry Pi and Do Wiring:
@@ -32,7 +32,7 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Ultrasonic - Wiring.jpg?raw=true "gb.device.piconzero")
   
 ### Obstable Avoidance Sensor
-1. Connect the Obstable Directly to the Picon Zero Input Section
+1. Connect the Obstable Sensors Directly to the Picon Zero Input Section
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Obstacle Sensors.jpg?raw=true "gb.device.piconzero")
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Obstacle Sensors Wiring.jpg?raw=true "gb.device.piconzero")
   
@@ -44,7 +44,6 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
   
   
 ## Reboot and Start Testing Code, Tab by Tab:
-  
 ### Servos
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Servos.png?raw=true "gb.device.piconzero")
   
