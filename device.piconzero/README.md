@@ -1,5 +1,5 @@
 #gb.device.piconzero
-Control 6 Servos, 1 Ultrasonic Distance Sensor, 4 Obstable Sensors, 2 Motors and more.
+Control 6 Servos, 1 Ultrasonic Distance Sensor, 4 Obstacle Sensors, 2 Motors and more.
 
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - All.jpg?raw=true "gb.device.piconzero")
 
@@ -31,8 +31,8 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Ultrasonic.jpg?raw=true "gb.device.piconzero")
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Ultrasonic - Wiring.jpg?raw=true "gb.device.piconzero")
   
-### Obstable Avoidance Sensor
-1. Connect the Obstable Sensors Directly to the Picon Zero Input Section
+### Obstacle Avoidance Sensor
+1. Connect the Obstacle Sensors Directly to the Picon Zero Input Section
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Obstacle Sensors.jpg?raw=true "gb.device.piconzero")
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Obstacle Sensors Wiring.jpg?raw=true "gb.device.piconzero")
   
@@ -49,7 +49,7 @@ https://github.com/Matthew-Collins/gb.device/blob/master/Install/0.0.1/debian/ga
 ### Ultrasonic Distance Sensor
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Ultrasonic.png?raw=true "gb.device.piconzero")
   
-### Obstable Avoidance Sensor
+### Obstacle Avoidance Sensor
 ![Photo](https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/images/Picon Zero - Obstacle Sensors.png?raw=true "gb.device.piconzero")
   
 ### Motors
