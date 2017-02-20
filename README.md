@@ -37,17 +37,29 @@ https://github.com/Matthew-Collins/gb.device/blob/master/device.i2c/README.md
 
 ![Photo](device.i2c/i2cDetect and i2cDump.png?raw=true "device.i2c") 
 
+  
+##gb.device.piconzero
+Control Servos, Motors, etc using 4tronix Picon Zero.
+
+More info on how to get started:  
+https://github.com/Matthew-Collins/gb.device/blob/master/device.piconzero/README.md
+
+![Photo](device.piconzero/images/Picon Zero - All.jpg?raw=true "device.piconzero") 
 
   
 #The road map of devices to be added shortly....
+  
+##gb.device.servohat
+Control 16 Servos using Adafruit ServoHat.
 
-
-##gb.device.piconzero
-Control Servos, Motors, etc using 4tronix Picon Zero.
+##gb.device.motorhat
+Control 4 Motors or 2 Stepper Motors using Adafruit MotorHat.
 
 ##gb.device.berryimu
 Read Gyro, Accelerometer, Compass and Altitude using ozzmaker BerryIMU.
 
+##gb.device.10Dof
+Read Gyro, Accelerometer, Compass and Altitude using Adafruit 10 DOF.
 
 ##More to follow...
 
